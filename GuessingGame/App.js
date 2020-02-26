@@ -1,9 +1,10 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {StyleSheet, View, Text} from 'react-native';
 
 import Header from './components/Header';
 import StartGameScreen from './screens/StartGameScreen';
 import GameScreen from './screens/GameScreen';
+
 import GameOverScreen from './screens/GameOverScreen';
 
 export default function App() {
@@ -21,6 +22,10 @@ export default function App() {
   const gameOverHandler = numOfRounds => {
     setGuessRounds(numOfRounds);
   };
+
+  // useEffect(() => {
+  //   Orientation.unlockAllOrientations();
+  // });
 
   let content = <StartGameScreen onStartGame={startGameHandler} />;
   // content = (

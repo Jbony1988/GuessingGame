@@ -17,13 +17,13 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* GuessingGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GuessingGameTests.m */; };
 		3226B0DA6F9FD346F8F84677 /* libPods-GuessingGame-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3CCE74A74079947D5566559 /* libPods-GuessingGame-tvOSTests.a */; };
+		5F126AAE3F804F5485FB43B2 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A99751E95674DC49C628511 /* OpenSans-Regular.ttf */; };
+		6807469EEAA342BBBFC26F5B /* OpenSansRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B8DF860E13740D1BD444299 /* OpenSansRegular.ttf */; };
+		7406867598DC4E3EAA426948 /* OpenSansBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069FD85AC8F47358D7D0997 /* OpenSansBold.ttf */; };
 		7BD4BD8AE85B6F8143B31DC6 /* libPods-GuessingGame-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B2910BCDDF2CA469F65004 /* libPods-GuessingGame-tvOS.a */; };
+		B0610FA36F8B45AABA7D4D73 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B09C39C384C437CA6A0119B /* OpenSans-Bold.ttf */; };
 		B7B20450811C1039C07FF429 /* libPods-GuessingGame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6721691F544BEE297EEF5C34 /* libPods-GuessingGame.a */; };
 		F0364347D934BF65F0AE0269 /* libPods-GuessingGameTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5028593FCA7279123B2F91E /* libPods-GuessingGameTests.a */; };
-		B0610FA36F8B45AABA7D4D73 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B09C39C384C437CA6A0119B /* OpenSans-Bold.ttf */; };
-		5F126AAE3F804F5485FB43B2 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A99751E95674DC49C628511 /* OpenSans-Regular.ttf */; };
-		7406867598DC4E3EAA426948 /* OpenSansBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B069FD85AC8F47358D7D0997 /* OpenSansBold.ttf */; };
-		6807469EEAA342BBBFC26F5B /* OpenSansRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B8DF860E13740D1BD444299 /* OpenSansRegular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +48,7 @@
 		00E356EE1AD99517003FC87E /* GuessingGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessingGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* GuessingGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessingGameTests.m; sourceTree = "<group>"; };
+		0B09C39C384C437CA6A0119B /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Bold.ttf"; path = "../assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* GuessingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = GuessingGame/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = GuessingGame/AppDelegate.m; sourceTree = "<group>"; };
@@ -55,9 +56,11 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GuessingGame/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GuessingGame/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GuessingGame/main.m; sourceTree = "<group>"; };
+		2A99751E95674DC49C628511 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		2ABBC962FD444108722B23CB /* Pods-GuessingGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessingGameTests.release.xcconfig"; path = "Target Support Files/Pods-GuessingGameTests/Pods-GuessingGameTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* GuessingGame-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GuessingGame-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* GuessingGame-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GuessingGame-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8DF860E13740D1BD444299 /* OpenSansRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = OpenSansRegular.ttf; path = ../assets/fonts/OpenSansRegular.ttf; sourceTree = "<group>"; };
 		531B2AD2795277D5D910B2F8 /* Pods-GuessingGame-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessingGame-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-GuessingGame-tvOSTests/Pods-GuessingGame-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		62B2910BCDDF2CA469F65004 /* libPods-GuessingGame-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GuessingGame-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6721691F544BEE297EEF5C34 /* libPods-GuessingGame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GuessingGame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,15 +69,12 @@
 		8F99B60AE597966534D6301D /* Pods-GuessingGame-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessingGame-tvOS.release.xcconfig"; path = "Target Support Files/Pods-GuessingGame-tvOS/Pods-GuessingGame-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		A5028593FCA7279123B2F91E /* libPods-GuessingGameTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GuessingGameTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE78E0E13ED2B5B0DC3EE38E /* Pods-GuessingGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessingGame.release.xcconfig"; path = "Target Support Files/Pods-GuessingGame/Pods-GuessingGame.release.xcconfig"; sourceTree = "<group>"; };
+		B069FD85AC8F47358D7D0997 /* OpenSansBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = OpenSansBold.ttf; path = ../assets/fonts/OpenSansBold.ttf; sourceTree = "<group>"; };
 		C3CCE74A74079947D5566559 /* libPods-GuessingGame-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GuessingGame-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE03C24D7E3DDDE76B826071 /* Pods-GuessingGame-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessingGame-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-GuessingGame-tvOSTests/Pods-GuessingGame-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E681C3A25F03FBD78962996B /* Pods-GuessingGame-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuessingGame-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-GuessingGame-tvOS/Pods-GuessingGame-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		0B09C39C384C437CA6A0119B /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; name = "OpenSans-Bold.ttf"; path = "../assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2A99751E95674DC49C628511 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; name = "OpenSans-Regular.ttf"; path = "../assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B069FD85AC8F47358D7D0997 /* OpenSansBold.ttf */ = {isa = PBXFileReference; name = "OpenSansBold.ttf"; path = "../assets/fonts/OpenSansBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3B8DF860E13740D1BD444299 /* OpenSansRegular.ttf */ = {isa = PBXFileReference; name = "OpenSansRegular.ttf"; path = "../assets/fonts/OpenSansRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				8843AAE1324650441B69A231 /* Pods-GuessingGameTests.debug.xcconfig */,
 				2ABBC962FD444108722B23CB /* Pods-GuessingGameTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,6 +170,17 @@
 				A5028593FCA7279123B2F91E /* libPods-GuessingGameTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AD52992EFAC41B3A3975A82 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0B09C39C384C437CA6A0119B /* OpenSans-Bold.ttf */,
+				2A99751E95674DC49C628511 /* OpenSans-Regular.ttf */,
+				B069FD85AC8F47358D7D0997 /* OpenSansBold.ttf */,
+				3B8DF860E13740D1BD444299 /* OpenSansRegular.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -206,18 +216,6 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
-		};
-		7AD52992EFAC41B3A3975A82 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				0B09C39C384C437CA6A0119B /* OpenSans-Bold.ttf */,
-				2A99751E95674DC49C628511 /* OpenSans-Regular.ttf */,
-				B069FD85AC8F47358D7D0997 /* OpenSansBold.ttf */,
-				3B8DF860E13740D1BD444299 /* OpenSansRegular.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -329,6 +327,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
